@@ -1,4 +1,3 @@
-
 /* media query */
 @media (max-width: 768px) {
   .header {
@@ -23,6 +22,12 @@
     height: 90%;
   }
 
+  .animated-button1 {
+    font-size: 12px;
+    padding: 15px 30px;
+    margin: 10px auto;
+  }
+
   .vote_text h1 {
     font-size: 30px;
     padding: 0px;
@@ -33,7 +38,9 @@
   }
 
   /* about */
-
+  .about {
+    margin: 20px 0px;
+  }
   .about .content {
     width: 100%;
   }
