@@ -1,0 +1,50 @@
+:root {
+  --main-color-one: #dd131a;
+  --main-color-two: #000565;
+  --secondary-color: #0e115a;
+  --heading-color: #04072e;
+  --paragraph-color: #727777;
+  --heading-font: "Barlow Semi Condensed", sans-serif;
+  --heading-font-02: "Kalam", cursive;
+  --body-font: "Roboto", sans-serif;
+  --animate-delay: 0.3s;
+  --site-padding: 10px 80px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* utilities */
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: baseline;
+}
+
+/* header */
+
+.header {
+  background-color: var(--main-color-one);
+  color: white;
+  padding: var(--site-padding);
+}
+
+.logo img {
+  width: 150px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
