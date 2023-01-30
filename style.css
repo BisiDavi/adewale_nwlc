@@ -40,11 +40,15 @@ body {
 }
 
 .logo img {
-  width: 150px;
+  /* width: 150px; */
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+
+.nav img {
+  height: 50px;
 }
