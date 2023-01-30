@@ -165,6 +165,7 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
   gap: 20px;
   justify-self: space-between;
+  flex-direction: row;
 }
 
 .reason_for_running img {
@@ -198,6 +199,21 @@ body {
   height: 200px;
 }
 
+.reason_for_running .know_me {
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.reason_for_running .know_me span {
+  margin: 0px 10px;
+}
+
+.reason_for_running .know_me img {
+  height: 20px;
+  width: 20px;
+}
+
 .reason_for_running .image_group {
   display: flex;
   flex-direction: column;
@@ -208,13 +224,13 @@ body {
 .reason_for_running .img_1 {
   display: flex;
   margin: auto;
-  margin-top: -10px;
+  margin-top: 10px;
 }
 
 .reason_for_running .img_2 {
   position: absolute;
   right: 0;
-  bottom: -10px;
+  bottom: 0px;
   width: 300px;
   height: 300px;
 }
