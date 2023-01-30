@@ -205,10 +205,16 @@ body {
   position: relative;
 }
 
+.reason_for_running .img_1 {
+  display: flex;
+  margin: auto;
+  margin-top: -10px;
+}
+
 .reason_for_running .img_2 {
   position: absolute;
-  right: -20px;
-  bottom: 0;
+  right: 0;
+  bottom: -10px;
   width: 300px;
   height: 300px;
 }
