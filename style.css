@@ -96,6 +96,17 @@ body {
   margin-top: 80px;
 }
 
+.vote_text button.support_me {
+  padding: 10px 40px;
+  margin-top: 50px;
+  border: 1px solid var(--main-color-one);
+  background-color: transparent;
+  font-weight: bold;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
 .vote_text p {
   width: 70%;
   font-weight: 600;
