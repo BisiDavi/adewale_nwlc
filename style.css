@@ -140,10 +140,22 @@ body {
   font-size: 30px;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 600;
-  text-decoration: underline;
 }
 .about .know_me span {
   margin: 0px 10px;
+}
+
+.know_me h4 .name {
+  color: var(--main-color-one);
+  border: 1px solid black;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+.know_me h4 .name:hover {
+  color: white;
+  background-color: var(--main-color-one);
+  border: 1px solid var(--main-color-one);
 }
 
 /* footer */
