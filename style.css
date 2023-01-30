@@ -61,26 +61,6 @@ body {
   border-radius: 20px;
 }
 
-.election-tag {
-  border: 1px solid var(--main-color-one);
-  width: fit-content;
-  padding: 4px 10px;
-  display: flex;
-  align-items: center;
-  border-radius: 5px;
-  font-family: "Barlow Semi Condensed", sans-serif;
-  margin-top: 30px;
-}
-
-.election-tag:hover {
-  background-color: var(--main-color-one);
-  color: white;
-}
-
-.election-tag img {
-  margin: 0px 4px;
-}
-
 .vote_text {
   font-family: "Barlow Semi Condensed", sans-serif;
   margin-bottom: 0px;
@@ -109,9 +89,12 @@ body {
 
 .vote_text p {
   width: 70%;
-  font-weight: 600;
+  font-weight: 400;
   margin-top: 40px;
+  font-size: 22px;
+  line-height: 1.5;
 }
+
 .vote_text h1 span.name,
 .vote_text h1 span.role {
   color: var(--main-color-one);
@@ -139,10 +122,16 @@ body {
 .about {
   display: flex;
   background-color: #acaeae1e;
+  align-items: center;
 }
 
 .about .content {
   padding: 80px 40px;
+}
+
+.about .content p {
+  line-height: 2;
+  font-size: 20px;
 }
 
 .about .know_me h4 {
@@ -173,7 +162,6 @@ body {
 .reason_for_running {
   display: flex;
   padding: 40px 80px;
-  height: 500px;
   font-family: "Barlow Semi Condensed", sans-serif;
   gap: 20px;
   justify-self: space-between;
@@ -191,11 +179,14 @@ body {
   width: 50%;
   font-size: 25px;
   font-weight: 400;
+  margin-top: 50px;
   height: 100%;
 }
 
 .reason_for_running .text_content p {
-  margin-top: 50px;
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .reason_for_running .text_content img.dot-shape-01 {
@@ -224,10 +215,9 @@ body {
 
 /* footer */
 .footer {
-  height: 200px;
   background-color: rgb(93, 83, 83);
   font-family: "Barlow Semi Condensed", sans-serif;
-  padding: 20px 0px 40px;
+  padding: 20px 0px 0px;
 }
 
 .top {
