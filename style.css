@@ -32,23 +32,34 @@ body {
 }
 
 /* header */
-
 .header {
   background-color: var(--main-color-one);
   color: white;
   padding: var(--site-padding);
 }
 
-.logo img {
-  /* width: 150px; */
-}
-
+/* nav */
 .nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: center;
 }
 
 .nav img {
   height: 50px;
+}
+
+/* main */
+
+.main {
+  padding: 40px 80px;
+}
+
+/* hero banner */
+.hero {
+  display: flex;
+}
+.hero .right img {
+  width: 100%;
 }
