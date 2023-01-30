@@ -158,6 +158,39 @@ body {
   border: 1px solid var(--main-color-one);
 }
 
+/* reason_for_running */
+.reason_for_running {
+  display: flex;
+  padding: 40px 80px;
+  height: 500px;
+}
+
+.reason_for_running img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  display: flex;
+}
+
+.reason_for_running .text_content {
+  width: 50%;
+}
+
+.reason_for_running .image_group {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+}
+
+.reason_for_running .img_2 {
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 300px;
+  height: 300px;
+}
+
 /* footer */
 .footer {
   height: 80px;
