@@ -118,15 +118,14 @@ body {
 }
 
 /* about */
-
 .about {
   display: flex;
   background-color: #acaeae1e;
-  align-items: center;
+  align-items: start;
 }
 
 .about .content {
-  padding: 80px 40px;
+  padding: 20px 40px;
 }
 
 .about .content p {
