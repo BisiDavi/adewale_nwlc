@@ -187,9 +187,20 @@ body {
 }
 
 .reason_for_running .text_content {
+  position: relative;
   width: 50%;
   font-size: 25px;
   font-weight: 600px;
+  height: 100%;
+}
+
+.reason_for_running .text_content img.dot-shape-01 {
+  left: 0;
+  top: -10;
+  -webkit-animation: zoomMid 2.5s linear infinite;
+  animation: zoomMid 2.5s linear infinite;
+  width: 50%;
+  height: 50%;
 }
 
 .reason_for_running .image_group {
@@ -272,6 +283,17 @@ body {
     opacity: 0;
     -webkit-transform: scale3d(0.3, 0.3, 0.3);
     transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomMid {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1);
+    transform: scale3d(0.1, 0.1, 0.1);
   }
   50% {
     opacity: 1;

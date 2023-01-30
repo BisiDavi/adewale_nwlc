@@ -45,6 +45,7 @@
 .animated-button1 {
   padding: 20px 40px;
   margin: 12px;
+  margin-top: 40px;
   display: inline-block;
   -webkit-transform: translate(0%, 0%);
   transform: translate(0%, 0%);
