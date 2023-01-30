@@ -163,6 +163,9 @@ body {
   display: flex;
   padding: 40px 80px;
   height: 500px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  gap: 20px;
+  justify-self: space-between;
 }
 
 .reason_for_running img {
@@ -174,6 +177,8 @@ body {
 
 .reason_for_running .text_content {
   width: 50%;
+  font-size: 25px;
+  font-weight: 600px;
 }
 
 .reason_for_running .image_group {
@@ -193,8 +198,62 @@ body {
 
 /* footer */
 .footer {
-  height: 80px;
-  background-color: black;
+  height: 200px;
+  background-color: rgb(93, 83, 83);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  padding: 20px 0px 40px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px 20px;
+}
+
+.footer .contact {
+  color: white;
+}
+
+.footer .contact h4 {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.footer .contact div {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.footer .contact div img {
+  margin: 0px 5px;
+}
+
+.footer .contact a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer .contact a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.footer .bottom {
+  background-color: white;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .bottom p {
+  text-align: center;
+  color: red;
+  font-weight: 600;
 }
 
 @keyframes zoomIn {
