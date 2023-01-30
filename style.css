@@ -194,13 +194,17 @@ body {
   height: 100%;
 }
 
+.reason_for_running .text_content p {
+  margin-top: 50px;
+}
+
 .reason_for_running .text_content img.dot-shape-01 {
   left: 0;
-  top: -10;
+  top: -40px;
   -webkit-animation: zoomMid 2.5s linear infinite;
   animation: zoomMid 2.5s linear infinite;
-  width: 50%;
-  height: 50%;
+  width: 200px;
+  height: 200px;
 }
 
 .reason_for_running .image_group {
