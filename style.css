@@ -59,7 +59,54 @@ body {
 /* hero banner */
 .hero {
   display: flex;
+  justify-content: space-between;
 }
 .hero .right img {
   width: 100%;
+}
+
+.election-tag {
+  border: 1px solid var(--main-color-one);
+  width: fit-content;
+  padding: 4px 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.election-tag:hover {
+  background-color: var(--main-color-one);
+  color: white;
+}
+
+.election-tag img {
+  margin: 0px 4px;
+}
+
+.vote_text {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.vote_text h1 {
+  font-size: 55px;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 800;
+}
+
+.vote_text p {
+  width: 70%;
+  font-weight: 600;
+}
+.vote_text h1 span.name,
+.vote_text h1 span.role {
+  color: var(--main-color-one);
+}
+
+.vote_text img {
+  margin-top: -40px;
 }
