@@ -36,6 +36,10 @@
     width: 100%;
   }
 
+  .support_me_by_voting {
+    display: flex;
+  }
+
   /* about */
   .about {
     margin: 20px 0px;
