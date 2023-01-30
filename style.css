@@ -54,7 +54,8 @@ body {
 .hero {
   display: flex;
   justify-content: space-between;
-  padding: 40px 80px;
+  padding: 50px 80px;
+  align-items: start;
 }
 .hero .right img {
   width: 100%;
@@ -64,7 +65,7 @@ body {
 .vote_text {
   font-family: "Barlow Semi Condensed", sans-serif;
   margin-bottom: 0px;
-  margin-top: 40px;
+  margin-top: 0px;
   font-size: 20px;
 }
 
@@ -73,18 +74,7 @@ body {
   padding: 0px;
   margin: 0px;
   font-weight: 800;
-  margin-top: 80px;
-}
-
-.vote_text button.support_me {
-  padding: 10px 40px;
-  margin-top: 50px;
-  border: 1px solid var(--main-color-one);
-  background-color: transparent;
-  font-weight: bold;
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 30px;
-  border-radius: 10px;
+  margin-top: 0px;
 }
 
 .vote_text p {
@@ -98,6 +88,10 @@ body {
 .vote_text h1 span.name,
 .vote_text h1 span.role {
   color: var(--main-color-one);
+}
+
+.support_me_by_voting {
+  margin: 40px 0px;
 }
 
 .vote_text img {
@@ -125,7 +119,7 @@ body {
 }
 
 .about .content {
-  padding: 20px 40px;
+  padding: 0px 40px;
 }
 
 .about .content p {
@@ -139,6 +133,7 @@ body {
   font-size: 30px;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 600;
+  margin: 10px 0px;
 }
 .about .know_me span {
   margin: 0px 10px;
@@ -160,7 +155,7 @@ body {
 /* reason_for_running */
 .reason_for_running {
   display: flex;
-  padding: 40px 80px;
+  padding: 50px 80px;
   font-family: "Barlow Semi Condensed", sans-serif;
   gap: 20px;
   justify-self: space-between;
@@ -179,7 +174,6 @@ body {
   width: 50%;
   font-size: 25px;
   font-weight: 400;
-  margin-top: 50px;
   height: 100%;
 }
 
