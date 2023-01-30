@@ -50,19 +50,15 @@ body {
   height: 50px;
 }
 
-/* main */
-
-.main {
-  padding: 40px 80px;
-}
-
 /* hero banner */
 .hero {
   display: flex;
   justify-content: space-between;
+  padding: 40px 80px;
 }
 .hero .right img {
   width: 100%;
+  border-radius: 20px;
 }
 
 .election-tag {
@@ -125,6 +121,35 @@ body {
   right: 17%;
   -webkit-animation: zoomIn 2.5s linear infinite;
   animation: zoomIn 2.5s linear infinite;
+}
+
+/* about */
+
+.about {
+  display: flex;
+  background-color: #acaeae1e;
+}
+
+.about .content {
+  padding: 80px 40px;
+}
+
+.about .know_me h4 {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.about .know_me span {
+  margin: 0px 10px;
+}
+
+/* footer */
+.footer {
+  height: 80px;
+  background-color: black;
 }
 
 @keyframes zoomIn {
